@@ -4,6 +4,10 @@
     "keywords": ["framework", "laravel", "lumen"],
     "license": "MIT",
     "type": "project",
+    "post-install-cmd": [
+        "php artisan clear-compiled",
+        "chmod -R 777 public/"
+    ],
     "require": {
         "php": "^7.3|^8.0",
         "laravel/lumen-framework": "^8.0"
