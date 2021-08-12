@@ -3,6 +3,7 @@ Running it locally:
 ```
 docker-compose up
 docker exec -it lumen bash
-cd lumen
 composer install
 ```
+
+The app should imeddiately listen and respond to /
